@@ -21,3 +21,4 @@ function rateFunction(){
    
 }
 alert('wk')
+rateFunction();
