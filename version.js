@@ -7,4 +7,4 @@ function maybe(){
 function devicereadymaybe(){
   alert("devicereadymaybe")
 }
-maybe();
+
