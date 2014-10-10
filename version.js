@@ -4,4 +4,10 @@ function maybe(){
     alert(version)
 
 }
-
+function devicereadymaybe(){
+    
+    
+    
+    
+    
+}
