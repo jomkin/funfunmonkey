@@ -18,5 +18,6 @@ function rateFunction(){
    			navigator.apprate.setup(cfg);
    			navigator.apprate.promptForRating();
   
-   alert('wk')
+   
 }
+alert('wk')
