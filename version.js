@@ -5,9 +5,6 @@ function maybe(){
 
 }
 function devicereadymaybe(){
-    
-    
-    
-    
-    
+ 
 }
+maybe();
