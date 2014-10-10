@@ -7,7 +7,7 @@ function maybe(){
 
 function rateFunction(){
        var cfg = {
-        usesUntilPrompt: 10,
+        usesUntilPrompt: 7,
         displayAppName: "My Super App",
         customLocale: {
             title: "Rate %@",
