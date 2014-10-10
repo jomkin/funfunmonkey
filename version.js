@@ -6,19 +6,12 @@ function maybe(){
 }
 
 function rateFunction(){
-       var cfg = {
-        usesUntilPrompt: 4,
-        displayAppName: "My Super App",
-        customLocale: {
-            title: "Rate %@",
-            message: "If you enjoy using %@, would you mind taking a moment to rate it? It won’t take more than a minute. Thanks for your support!",
-            cancelButtonLabel: "No, Thanks",
-            laterButtonLabel: "Remind Me Later",
-            rateButtonLabel: "Rate It Now"
-        },
+        var cfg = {
+        useLanguage: "ru",
+        usesUntilPrompt: 5,
         appStoreAppURL: {
             ios: "itms-apps://itunes.apple.com/app/id<my_app_id>?mt=8",
-            android: "market://details?id=<package_name>"
+           // android: "market://details?id=<package_name>"
         }
     };
 
