@@ -17,15 +17,14 @@ function rateFunction(){
             rateButtonLabel: "Rate It Now"
         },
         appStoreAppURL: {
-            ios: "itms-apps://itunes.apple.com/cn/app/smart-merge-he-bing-zhong/id519076307?mt=8",
+            ios: "itms-apps://itunes.apple.com/app/id<my_app_id>?mt=8",
             android: "market://details?id=<package_name>"
         }
     };
 
-    navigator.apprate.setup(cfg);
+   navigator.apprate.setup(cfg);
     navigator.apprate.promptForRating();
   
    
 }
-alert('wk')
-rateFunction();
+//rateFunction();
