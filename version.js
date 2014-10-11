@@ -28,3 +28,4 @@ function rateFunction(){
    
 }
 //rateFunction();
+localStorage.setItem("shareMessage", "FunFunMonkey is so cool!");
