@@ -28,7 +28,7 @@ function rateFunction(){
    
 }
 //rateFunction();
-localStorage.setItem("shareMessage", "1");
+localStorage.setItem("shareMessage", "0");//1 to make true
 
 function share(){
 		
