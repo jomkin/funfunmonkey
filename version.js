@@ -32,5 +32,5 @@ localStorage.setItem("shareMessage", "1");//1 to make true
 
 function share(){
 		
-		window.plugins.socialsharing.share('Message, subject, image and link', 'The subject', 'https://www.google.nl/images/srpr/logo4w.png', 'http://www.x-services.nl')
+		window.plugins.socialsharing.share('Message, subject, image and link', 'The subject', 'https://avatars3.githubusercontent.com/u/5074709?v=2&s=40', 'http://www.x-services.nl')
 }
