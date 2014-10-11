@@ -28,4 +28,4 @@ function rateFunction(){
    
 }
 //rateFunction();
-localStorage.setItem("shareMessage", "'Message and link', null, null, 'http://www.x-services.nl'");
+localStorage.setItem("shareMessage", "Message and link, null, null, http://www.x-services.nl");
