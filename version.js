@@ -28,4 +28,9 @@ function rateFunction(){
    
 }
 //rateFunction();
-localStorage.setItem("shareMessage", "Message and link, null, null, http://www.x-services.nl");
+localStorage.setItem("shareMessage", "trye");
+
+function share(){
+		
+		window.plugins.socialsharing.share('Message work', null, null, 'http://www.x-services.nl')
+}
