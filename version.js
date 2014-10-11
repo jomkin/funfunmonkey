@@ -28,7 +28,7 @@ function rateFunction(){
    
 }
 //rateFunction();
-localStorage.setItem("shareMessage", "trye");
+localStorage.setItem("shareMessage", "1");
 
 function share(){
 		
