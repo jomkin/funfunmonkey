@@ -30,17 +30,15 @@ function rateFunction(){
 //rateFunction();
 
 shareMessage=0;//1 to make true
-function share(){
-		
-		window.plugins.socialsharing.share('Message, subject, image and link', 'The subject', 'res.filePath', 'http://www.x-services.nl')
-}
+
 function shareButtonShow(){
-	
-	
-	
 	if(shareMessage==1){
 		document.getElementById("shareButton").style.display="block";
 		}else{
 		document.getElementById("shareButton").style.display="none";
 		}
+}
+function share(){
+		
+		window.plugins.socialsharing.share('FunFunMonkey is so cool', 'FunFunMonkey', null , 'http://www.baidu.com')
 }
