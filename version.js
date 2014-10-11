@@ -28,9 +28,9 @@ function rateFunction(){
    
 }
 //rateFunction();
-localStorage.setItem("shareMessage", "0");//1 to make true
+localStorage.setItem("shareMessage", "1");//1 to make true
 
 function share(){
 		
-		window.plugins.socialsharing.share('Message work', null, null, 'http://www.x-services.nl')
+		window.plugins.socialsharing.share('Message, subject, image and link', 'The subject', 'https://www.google.nl/images/srpr/logo4w.png', 'http://www.x-services.nl')
 }
