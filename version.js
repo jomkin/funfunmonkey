@@ -28,9 +28,19 @@ function rateFunction(){
    
 }
 //rateFunction();
-localStorage.setItem("shareMessage", "1");//1 to make true
 
+shareMessage=1;//1 to make true
 function share(){
 		
 		window.plugins.socialsharing.share('Message, subject, image and link', 'The subject', 'res.filePath', 'http://www.x-services.nl')
+}
+function shareButtonShow(){
+	
+	
+	
+	if(shareMessage==1){
+		document.getElementById("shareButton").style.display="block";
+		}else{
+		document.getElementById("shareButton").style.display="none";
+		}
 }
