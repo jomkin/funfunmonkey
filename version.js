@@ -32,5 +32,5 @@ localStorage.setItem("shareMessage", "1");//1 to make true
 
 function share(){
 		
-		window.plugins.socialsharing.share('Message, subject, image and link', 'The subject', res.filePath, 'http://www.x-services.nl')
+		window.plugins.socialsharing.share('Message, subject, image and link', 'The subject', 'res.filePath', 'http://www.x-services.nl')
 }
