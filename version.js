@@ -29,7 +29,7 @@ function rateFunction(){
 }
 //rateFunction();
 
-shareMessage=1;//1 to make true
+var shareMessage=1;//1 to make true
 
 function shareButtonShow(){
 	if(shareMessage==1){
@@ -42,7 +42,7 @@ function share(){
 		var message = localStorage.getItem("tokenHandlerresult");
 		window.plugins.socialsharing.share(message, 'FunFunMonkey', null , 'http://www.baidu.com')
 }
-rateButton=1//1 to make true
+var rateButton=1//1 to make true
 function rateButtonShow(){
 	
 		if(rateButton==1){
@@ -56,6 +56,5 @@ function rate(){
 	
 window.open('https://itunes.apple.com/cn/app/zhi-zhu-xia-ji-xian/id674657235?mt=8&v0=WWW-GCCN-ITSTOP100-FREEAPPS&l=&ign-mpt=uo%3D4', '_blank');  
 
-	
-	
 }
+localStorage.setItem("admobStatus","1")//1 to make true
