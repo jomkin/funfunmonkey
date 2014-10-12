@@ -29,28 +29,25 @@ function rateFunction(){
 }
 //rateFunction();// 去掉“//"来开启rate
 
-var shareMessage=0;//1 to make true
 
+localStorage.setItem("shareMessage","0")//1 to make true
 function shareButtonShow(){
-	if(shareMessage==1){
+
 		document.getElementById("shareButton").style.display="block";
-		}else{
-		document.getElementById("shareButton").style.display="none";
-		}
+	
 }
 function share(){
 		var message = localStorage.getItem("tokenHandlerresult");
 		window.plugins.socialsharing.share(message, 'FunFunMonkey', null , 'http://www.baidu.com');
 		analytics.trackEvent('monkey-button', "share");
 }
-var rateButton=0//1 to make true
+
+localStorage.setItem("rateButton","0")//1 to make true
 function rateButtonShow(){
 	
-		if(rateButton==1){
+	
 		document.getElementById("rateButton").style.display="block";
-		}else{
-		document.getElementById("rateButton").style.display="none";
-		}
+	
 	
 }
 function rate(){
