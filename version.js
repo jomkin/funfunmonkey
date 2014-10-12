@@ -52,3 +52,10 @@ function rateButtonShow(){
 		}
 	
 }
+function rate(){
+	
+	
+	alert("wk")
+	
+	
+}
