@@ -55,7 +55,7 @@ function rateButtonShow(){
 function rate(){
 	
 window.open('https://itunes.apple.com/cn/app/zhi-zhu-xia-ji-xian/id674657235?mt=8&v0=WWW-GCCN-ITSTOP100-FREEAPPS&l=&ign-mpt=uo%3D4', '_blank');  
-alert("3")
+
 	
 	
 }
