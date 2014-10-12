@@ -40,7 +40,8 @@ function shareButtonShow(){
 }
 function share(){
 		var message = localStorage.getItem("tokenHandlerresult");
-		window.plugins.socialsharing.share(message, 'FunFunMonkey', null , 'http://www.baidu.com')
+		window.plugins.socialsharing.share(message, 'FunFunMonkey', null , 'http://www.baidu.com');
+		analytics.trackEvent('monkey-button', "share");
 }
 var rateButton=1//1 to make true
 function rateButtonShow(){
@@ -55,6 +56,6 @@ function rateButtonShow(){
 function rate(){
 	
 window.open('https://itunes.apple.com/cn/app/zhi-zhu-xia-ji-xian/id674657235?mt=8&v0=WWW-GCCN-ITSTOP100-FREEAPPS&l=&ign-mpt=uo%3D4', '_blank');  
-
+analytics.trackEvent('monkey-button', "Rate & View the highest");
 }
 localStorage.setItem("admobStatus","0")//1 to make true
