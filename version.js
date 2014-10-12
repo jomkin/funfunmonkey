@@ -27,7 +27,7 @@ function rateFunction(){
   
    
 }
-//rateFunction();
+//rateFunction();// 去掉“//"来开启rate
 
 var shareMessage=1;//1 to make true
 
