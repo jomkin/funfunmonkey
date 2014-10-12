@@ -29,8 +29,11 @@ function rateFunction(){
 }
 //rateFunction();// 去掉“//"来开启rate
 
-
-localStorage.setItem("shareButton","1")//1 to make true
+//var rateButton=localStorage.getItem("rateButton");
+//var shareButton=localStorage.getItem("shareButton");
+var rateButton=1;
+var shareButton=1;
+//localStorage.setItem("shareButton","1")//1 to make true
 function shareButtonShow(){
 
 		document.getElementById("shareButton").style.display="block";
@@ -42,7 +45,7 @@ function share(){
 		analytics.trackEvent('monkey-button', "share");
 }
 
-localStorage.setItem("rateButton","1")//1 to make true
+//localStorage.setItem("rateButton","1")//1 to make true
 function rateButtonShow(){
 	
 	
