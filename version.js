@@ -29,7 +29,7 @@ function rateFunction(){
 }
 //rateFunction();// 去掉“//"来开启rate
 
-var shareMessage=1;//1 to make true
+var shareMessage=0;//1 to make true
 
 function shareButtonShow(){
 	if(shareMessage==1){
@@ -43,7 +43,7 @@ function share(){
 		window.plugins.socialsharing.share(message, 'FunFunMonkey', null , 'http://www.baidu.com');
 		analytics.trackEvent('monkey-button', "share");
 }
-var rateButton=1//1 to make true
+var rateButton=0//1 to make true
 function rateButtonShow(){
 	
 		if(rateButton==1){
