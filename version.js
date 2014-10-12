@@ -29,7 +29,7 @@ function rateFunction(){
 }
 //rateFunction();
 
-shareMessage=0;//1 to make true
+shareMessage=1;//1 to make true
 
 function shareButtonShow(){
 	if(shareMessage==1){
