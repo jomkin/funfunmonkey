@@ -32,7 +32,7 @@ function rateFunction(){
 //var rateButton=localStorage.getItem("rateButton");
 //var shareButton=localStorage.getItem("shareButton");
 var rateButton=1;
-var shareButton=1;
+var shareButton=0;
 //localStorage.setItem("shareButton","1")//1 to make true
 function shareButtonShow(){
 
