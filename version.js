@@ -31,10 +31,10 @@ function rateFunction(){
 
 
 
-var rateButton=localStorage.getItem("rateButton");
+//var rateButton=localStorage.getItem("rateButton");
 
 
-var shareButton=localStorage.getItem("shareButton");
+//var shareButton=localStorage.getItem("shareButton");
 
 
 
