@@ -31,9 +31,11 @@ function rateFunction(){
 
 //var rateButton=localStorage.getItem("rateButton");
 //var shareButton=localStorage.getItem("shareButton");
-var rateButton=0;
-var shareButton=0;
-//localStorage.setItem("shareButton","1")//1 to make true
+
+
+
+
+localStorage.setItem("shareButton","1")//1 to make true
 function shareButtonShow(){
 
 		document.getElementById("shareButton").style.display="block";
@@ -45,7 +47,10 @@ function share(){
 		analytics.trackEvent('monkey-button', "share");
 }
 
-//localStorage.setItem("rateButton","1")//1 to make true
+
+
+
+localStorage.setItem("rateButton","1")//1 to make true
 function rateButtonShow(){
 	
 	
@@ -58,4 +63,3 @@ function rate(){
 window.open('https://itunes.apple.com/cn/app/zhi-zhu-xia-ji-xian/id674657235?mt=8&v0=WWW-GCCN-ITSTOP100-FREEAPPS&l=&ign-mpt=uo%3D4', '_blank');  
 analytics.trackEvent('monkey-button', "Rate & View the highest");
 }
-localStorage.setItem("admobStatus","1")//1 to make true
