@@ -29,8 +29,6 @@ function rateFunction(){
 }
 //rateFunction();// 去掉“//"来开启rate
 
-
-
 //var rateButton=localStorage.getItem("rateButton");
 
 
@@ -52,7 +50,7 @@ function share(){
 }
 
 
-
+rateButtonShow()
 
 localStorage.setItem("rateButton","1")//1 to make true
 function rateButtonShow(){
@@ -64,7 +62,7 @@ function rateButtonShow(){
 }
 function rate(){
 	
-window.open('https://itunes.apple.com/cn/app/zhi-zhu-xia-ji-xian/id674657235?mt=8&v0=WWW-GCCN-ITSTOP100-FREEAPPS&l=&ign-mpt=uo%3D4', '_blank');  
+window.open('https://itunes.apple.com/app/funfunmonkey-mini-funny-free/id928912223', '_blank');  
 analytics.trackEvent('monkey-button', "Rate & View the highest");
 }
 
