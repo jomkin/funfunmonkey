@@ -18,7 +18,7 @@ function rateFunction(){
         },
         appStoreAppURL: {
             ios: "itms-apps://itunes.apple.com/app/id<my_app_id>?mt=8",
-            android: "market://details?id=<package_name>"
+           android: "market://details?id=<package_name>"
         }
     };
 
@@ -27,12 +27,12 @@ function rateFunction(){
   
    
 }
-//rateFunction();// 去掉“//"来开启rate
+rateFunction();// 去掉“//"来开启rate
 
 var rateButton=localStorage.getItem("rateButton");
 
 
-//var shareButton=localStorage.getItem("shareButton");
+var shareButton=localStorage.getItem("shareButton");
 
 
 
@@ -45,7 +45,7 @@ function shareButtonShow(){
 }
 function share(){
 		var message = localStorage.getItem("tokenHandlerresult");
-		window.plugins.socialsharing.share(message, 'FunFunMonkey', null , 'http://www.baidu.com');
+		window.plugins.socialsharing.share(message, 'FunFunMonkey', null , 'https://itunes.apple.com/app/funfunmonkey-mini-funny-free/id928912223');
 		analytics.trackEvent('monkey-button', "share");
 }
 
