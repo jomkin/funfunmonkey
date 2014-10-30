@@ -29,7 +29,7 @@ function rateFunction(){
 }
 //rateFunction();// 去掉“//"来开启rate
 
-//var rateButton=localStorage.getItem("rateButton");
+var rateButton=localStorage.getItem("rateButton");
 
 
 //var shareButton=localStorage.getItem("shareButton");
