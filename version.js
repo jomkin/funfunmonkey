@@ -50,7 +50,6 @@ function share(){
 }
 
 
-rateButtonShow()
 
 localStorage.setItem("rateButton","1")//1 to make true
 function rateButtonShow(){
