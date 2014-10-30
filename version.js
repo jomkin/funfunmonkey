@@ -8,7 +8,7 @@ function maybe(){
 function rateFunction(){
   var cfg = {
         usesUntilPrompt: 5,
-        displayAppName: "My Super App",
+        displayAppName: "Fun Fun Monkey",
         customLocale: {
             title: "Rate %@",
             message: "If you enjoy using %@, would you mind taking a moment to rate it? It won’t take more than a minute. Thanks for your support!",
@@ -17,7 +17,7 @@ function rateFunction(){
             rateButtonLabel: "Rate It Now"
         },
         appStoreAppURL: {
-            ios: "itms-apps://itunes.apple.com/app/id<my_app_id>?mt=8",
+            ios: "itms-apps://itunes.apple.com/app/funfunmonkey-mini-funny-free/id928912223",
            android: "market://details?id=<package_name>"
         }
     };
